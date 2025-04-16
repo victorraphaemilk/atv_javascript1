@@ -28,3 +28,4 @@ function contarImparesEPares (number) {
 }
 
 console.log(contarImparesEPares(2822))
+console.log(contarImparesEPares(672816378213678))
