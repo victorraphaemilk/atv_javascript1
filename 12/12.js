@@ -5,7 +5,7 @@ const pergunta_interface = readline.createInterface({
     output: process.stdout 
 })
 
-let numero_secreto = 35
+let numero_secreto = Math.floor((Math.random()*100)+1)
 
 
 function adivinheONumero () {
