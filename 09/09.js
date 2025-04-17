@@ -17,6 +17,7 @@ function calcularMediaAlunos (alunos) {
 }
 
 let grays =[
+    
     {nome: "Raphael", notas: [7, 5.5 , 8]},
     {nome: "Eraldo", notas: [7, 5.4 , 10]},
     {nome: "Davi", notas: [10, 9.7 , 8]},
