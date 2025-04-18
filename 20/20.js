@@ -12,7 +12,7 @@ function FiltrarCarros (lista, ano) {
     }
 }
 
-const carros = [
+let carros = [
     { ano: 2020, marca: "Toyota", modelo: "Corolla" },
     { ano: 2018, marca: "Honda", modelo: "Civic" },
     { ano: 2022, marca: "Chevrolet", modelo: "Onix" },
