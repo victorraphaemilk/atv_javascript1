@@ -1,9 +1,18 @@
 function FiltrarCarros (lista, ano) {
+    let filtro = []
     
+    for (let chave of lista) {
+        if(chave.ano > ano){
+            filtro.push({marca:chave.marca, modelo: chave.modelo, ano: chave.ano })
+        }
+    }
+
+    for (let chave of filtro) {
+        console.log(chave)
+    }
 }
 
-
-carros = [
+const carros = [
     { ano: 2020, marca: "Toyota", modelo: "Corolla" },
     { ano: 2018, marca: "Honda", modelo: "Civic" },
     { ano: 2022, marca: "Chevrolet", modelo: "Onix" },
@@ -12,7 +21,6 @@ carros = [
     { ano: 2017, marca: "Ford", modelo: "Ka" },
     { ano: 2023, marca: "Fiat", modelo: "Argo" },
     { ano: 2016, marca: "Renault", modelo: "Sandero" }
-]
+];
 
-
-console.log(FiltrarCarros(carros, 2019))
+FiltrarCarros(carros, 2019);
